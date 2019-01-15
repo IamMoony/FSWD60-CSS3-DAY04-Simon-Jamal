@@ -1,9 +1,12 @@
+@import "formatting_only";
+
 $colorlightgrey: lightgrey;
 $standardwidth: 100%;
 $colorblue: lightblue;
+$colorpink: pink;
 $colorgrey: grey;
 $bordercolor: red;
-$fontcolor: black;
+$basicfontcolor: black;
 $fontstack: Helvetica, sans-serif;
 $fontweight: bold;
 
@@ -42,6 +45,8 @@ ul {
 	margin: 0px;
 	padding: 0px;
 	background-color: $colorblue;
+	font-family: $alt-fontfamily;
+	font-style: $fontstyle1;
 }
 
 li {
@@ -51,12 +56,14 @@ li {
 
 li a {
 	text-decoration: none;
-	color: $fontcolor;
+	color: $basicfontcolor;
+	font-style: $fontstyle2;
 
 }
 
 li a:hover {
-	background-color: $bordercolor;
+	background-color: $colorpink;
+	font-style: $fontstyle2
 }
 main{
 	width: $standardwidth;
@@ -70,15 +77,15 @@ main a {
 	display: block;
 	text-decoration: none;
 	background-color: $colorblue;
-	color: $fontcolor;
-
+	color: $alt-fontcolor;
+	font-family: $alt-fontfamily;
 }
 
 main a:hover {
 	background-color: yellow;
 	background-color: $colorlightgrey;
 	color: white;
-	border: 1px solid red;
+	border: 1px solid $bordercolor;
 	font-size: 25px;
 }
 
@@ -90,6 +97,7 @@ footer{
 footer:hover{
 	background-color: $colorblue;
 	border-radius: 50px;
+	font-size: $secondary-fontsize;
 }
 
 

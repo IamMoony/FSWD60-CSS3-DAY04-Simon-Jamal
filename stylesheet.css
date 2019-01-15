@@ -21,17 +21,21 @@ ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
-  background-color: lightblue; }
+  background-color: lightblue;
+  font-family: Arial, serif;
+  font-style: italic; }
 
 li {
   display: inline-block; }
 
 li a {
   text-decoration: none;
-  color: black; }
+  color: black;
+  font-style: oblique; }
 
 li a:hover {
-  background-color: red; }
+  background-color: pink;
+  font-style: oblique; }
 
 main {
   width: 100%;
@@ -44,7 +48,8 @@ main a {
   display: block;
   text-decoration: none;
   background-color: lightblue;
-  color: black; }
+  color: #900C3F;
+  font-family: Arial, serif; }
 
 main a:hover {
   background-color: yellow;
@@ -59,6 +64,7 @@ footer {
 
 footer:hover {
   background-color: lightblue;
-  border-radius: 50px; }
+  border-radius: 50px;
+  font-size: 40px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
