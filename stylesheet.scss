@@ -9,7 +9,43 @@ $bordercolor: red;
 $basicfontcolor: black;
 $fontstack: Helvetica, sans-serif;
 $fontweight: bold;
+$radius:40px;
+@mixin borderradius($radius){
+ border-radius: $radius;
 
+}
+.topsection{
+	@include borderradius($radius);
+}
+.mainsection{
+	@include borderradius($radius);
+
+}
+.message{
+	border: 2px solid #ccc;
+	padding:15px;
+	color: #333;
+	margin: 5px;
+}
+.success{
+	@extend .message;
+	border: 2px solid green;
+
+}
+.error {
+@extend .message;
+	border: 2px solid red;
+
+}
+.warning{
+	@extend .message;
+	border: 2px solid yellow;
+
+}
+div.message p {
+ text-align: center;
+
+}
 
 .topsection {
 	width: $standardwidth;

@@ -1,4 +1,28 @@
 .topsection {
+  border-radius: 40px; }
+
+.mainsection {
+  border-radius: 40px; }
+
+.message, .success, .error, .warning {
+  border: 2px solid #ccc;
+  padding: 15px;
+  color: #333;
+  margin: 5px; }
+
+.success {
+  border: 2px solid green; }
+
+.error {
+  border: 2px solid red; }
+
+.warning {
+  border: 2px solid yellow; }
+
+div.message p, div.success p, div.error p, div.warning p {
+  text-align: center; }
+
+.topsection {
   width: 100%;
   height: auto;
   background-color: lightgrey; }
