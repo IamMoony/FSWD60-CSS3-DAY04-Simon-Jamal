@@ -21,25 +21,32 @@ $radius:40px;
 	@include borderradius($radius);
 
 }
-.message{
+
+.message {
 	border: 2px solid #ccc;
 	padding:15px;
 	color: #333;
-	margin: 5px;
+	margin-bottom: 20px;
+	width:100px;
+	height:50px;
+	width: 100%;
 }
-.success{
+.success::after {
 	@extend .message;
 	border: 2px solid green;
+	content: "You were successfully";
 
 }
-.error {
+.error::after {
 @extend .message;
 	border: 2px solid red;
+	content: "Error!";
 
 }
-.warning{
+.warning::after {
 	@extend .message;
 	border: 2px solid yellow;
+	content: "Warning!";
 
 }
 div.message p {
