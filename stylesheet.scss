@@ -1,6 +1,6 @@
 $colorlightgrey: lightgrey;
 $standardwidth: 100%;
-$colorlbue: lightblue;
+$colorblue: lightblue;
 $colorgrey: grey;
 $bordercolor: red;
 $fontcolor: black;
@@ -41,7 +41,7 @@ ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	background-color: lightblue;
+	background-color: $colorblue;
 }
 
 li {
@@ -51,31 +51,32 @@ li {
 
 li a {
 	text-decoration: none;
-	color: black;
+	color: $fontcolor;
+
 }
 
 li a:hover {
-	background-color: red;
+	background-color: $bordercolor;
 }
 main{
-	width: 100%;
+	width: $standardwidth;
 	height: auto;
 }
 main:hover{
-	background-color: yellow;
+	background-color: $colorgrey;
 }
 
 main a {
 	display: block;
 	text-decoration: none;
-	background-color: grey;
-	color: black;
+	background-color: $colorblue;
+	color: $fontcolor;
 
 }
 
 main a:hover {
 	background-color: yellow;
-	background-color: lightblue;
+	background-color: $colorlightgrey;
 	color: white;
 	border: 1px solid red;
 	font-size: 25px;
@@ -87,7 +88,7 @@ footer{
 }
 
 footer:hover{
-	background-color: yellow;
+	background-color: $colorblue;
 	border-radius: 50px;
 }
 
