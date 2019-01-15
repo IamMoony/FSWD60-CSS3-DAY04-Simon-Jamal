@@ -1,5 +1,5 @@
 .container {
-	width: 900px;
+	width: 100%;
 	margin: 0px auto;
 
 }
@@ -14,6 +14,7 @@ ul {
 
 li {
 	display: inline-block;
+	height: 30px;
 
 }
 
@@ -29,14 +30,16 @@ li a {
 
 header img {
 	width: 18%;
-	height: 14%
+	height: 14%;
+	margin-top: 1px;
 }
 
 
 
 .mainsection{
+	width: 100%;
 	border: 1px solid black;
-	flex-wrap: wrap;
+	
 	display: flex;
 	justify-content: space-around; 
 
