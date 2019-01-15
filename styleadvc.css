@@ -46,10 +46,9 @@ header img {
 .mainsection{
 	width: 100%;
 	border: 1px solid black;
-<<<<<<< HEAD
-=======
+
+
 	
->>>>>>> 63cff1f829fa619ba71d65998fd3142d26abb8de
 	display: flex;
 	flex-wrap: wrap;
 	/* justify-content: space-around;  */
@@ -107,7 +106,10 @@ li a:hover {
 
 .leftsection {
 	display:  flex;
-	flex-flow:  column;
+	flex-flow:  column;}
+	.leftsection img {
+	width: 400px;
+	height: 200px;
 }
 
 
