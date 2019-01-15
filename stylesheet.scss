@@ -1,0 +1,97 @@
+$colorlightgrey: lightgrey;
+$standardwidth: 100%;
+$colorlbue: lightblue;
+$colorgrey: grey;
+$bordercolor: red;
+$fontcolor: black;
+$fontstack: Helvetica, sans-serif;
+$fontweight: bold;
+
+
+.topsection {
+	width: $standardwidth;
+	height: auto;
+	background-color: $colortopsection;
+
+}
+
+
+
+
+.logotop{
+	/* text-align: center; */
+	
+	/* transition: height: 4s ease-in: 2s;
+	transition-delay: 2s; */
+	/* this is the time it takes to rotate 180 deg ease-in defines the start to take 3s */
+	transition: width 2s, height 2s, transform 5s;
+	width: 200px;
+	height: 200px;
+}
+
+
+.logotop:hover {
+	width: 500px;
+	height: 200px;
+	transform: rotate(180deg);
+}
+
+
+ul {
+	
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: lightblue;
+}
+
+li {
+	display: inline-block;
+
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+li a:hover {
+	background-color: red;
+}
+main{
+	width: 100%;
+	height: auto;
+}
+main:hover{
+	background-color: yellow;
+}
+
+main a {
+	display: block;
+	text-decoration: none;
+	background-color: grey;
+	color: black;
+
+}
+
+main a:hover {
+	background-color: yellow;
+	background-color: lightblue;
+	color: white;
+	border: 1px solid red;
+	font-size: 25px;
+}
+
+footer{
+	border: 1px solid red;
+	text-align: center;
+}
+
+footer:hover{
+	background-color: yellow;
+	border-radius: 50px;
+}
+
+
+
+
