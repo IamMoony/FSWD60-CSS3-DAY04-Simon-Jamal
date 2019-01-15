@@ -31,3 +31,35 @@ header img {
 	width: 14%;
 	height: 10%
 }
+
+
+
+.mainsection{
+	border: 1px solid black;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around; 
+
+}
+.photo1{
+	border: 1px solid red;
+	width: 400px;
+	height: 200px;
+}
+.photo2{
+	border: 1px solid red;
+	width: 400px;
+	height: 200px;
+}
+.photo3{
+	border: 1px solid red;
+	width: 400px;
+	height: 200px;
+}
+.photo4{
+	border: 1px solid red;
+	width: 400px;
+	height: 200px;
+	flex-wrap: wrap;
+}
+
