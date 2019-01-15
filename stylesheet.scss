@@ -21,6 +21,14 @@ $radius:40px;
 	@include borderradius($radius);
 
 }
+.topsection{
+	width:100%;
+}
+nav ul li {
+	
+	width:600px/960px * 100%;
+
+}
 
 .message {
 	border: 2px solid #ccc;
