@@ -36,9 +36,10 @@ header img {
 
 .mainsection{
 	border: 1px solid black;
-	flex-wrap: wrap;
 	display: flex;
-	justify-content: space-around; 
+	flex-wrap: wrap;
+	/* justify-content: space-around;  */
+	width:  100%;
 
 }
 .photo1{
@@ -60,10 +61,10 @@ header img {
 	border: 1px solid red;
 	width: 400px;
 	height: 200px;
-	flex-wrap: wrap;
 }
 
 li a:hover {
 	background-color: grey;
 }
+
 
