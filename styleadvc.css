@@ -1,0 +1,33 @@
+.container {
+	width: 900px;
+	margin: 0px auto;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: lightgrey;
+
+}
+
+li {
+	display: inline-block;
+
+}
+
+li a {
+	
+	text-decoration: none;
+	padding: 8px;
+	margin: 0px;
+	cursor: pointer;
+	
+
+	}
+
+header img {
+	width: 14%;
+	height: 10%
+}
