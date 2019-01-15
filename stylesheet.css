@@ -4,22 +4,28 @@
 .mainsection {
   border-radius: 40px; }
 
-.message, .success, .error, .warning {
+.message, .success::after, .error::after, .warning::after {
   border: 2px solid #ccc;
   padding: 15px;
   color: #333;
-  margin: 5px; }
+  margin-bottom: 20px;
+  width: 100px;
+  height: 50px;
+  width: 100%; }
 
-.success {
-  border: 2px solid green; }
+.success::after {
+  border: 2px solid green;
+  content: "You were successfully"; }
 
-.error {
-  border: 2px solid red; }
+.error::after {
+  border: 2px solid red;
+  content: "Error!"; }
 
-.warning {
-  border: 2px solid yellow; }
+.warning::after {
+  border: 2px solid yellow;
+  content: "Warning!"; }
 
-div.message p, div.success p, div.error p, div.warning p {
+div.message p, div.success::after p, div.error::after p, div.warning::after p {
   text-align: center; }
 
 .topsection {
