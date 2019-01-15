@@ -10,7 +10,7 @@
 nav ul li {
   width: 62.5%; }
 
-.message, .success::after, .error::after, .warning::after {
+.message, .success::after, .error::after, .warning::after, .success, .error, .warning {
   border: 2px solid #ccc;
   padding: 15px;
   color: #333;
